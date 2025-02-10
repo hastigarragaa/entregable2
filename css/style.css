@@ -1,11 +1,9 @@
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -18,7 +16,6 @@ body {
     min-height: 100vh;
 }
 
-/* Header */
 header {
     background-color: #007bff;
     color: white;
@@ -27,7 +24,7 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* Contenedor principal */
+
 main {
     padding: 20px;
     max-width: 600px;
@@ -37,7 +34,7 @@ main {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Formulario */
+
 form {
     display: flex;
     flex-direction: column;
@@ -59,7 +56,7 @@ input {
     font-size: 16px;
 }
 
-/* Botón */
+
 button {
     background-color: #28a745;
     color: white;
@@ -74,7 +71,6 @@ button:hover {
     background-color: #218838;
 }
 
-/* Área de resultado */
 #resultado {
     margin-top: 20px;
     padding: 15px;
@@ -83,7 +79,6 @@ button:hover {
     border-radius: 5px;
 }
 
-/* Mensajes de éxito y error */
 .resultado-exito {
     color: green;
     font-weight: bold;
@@ -92,4 +87,13 @@ button:hover {
 .resultado-error {
     color: red;
     font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+    margin-top: auto; 
+    padding: 30px;
+    width: 100%;
 }
